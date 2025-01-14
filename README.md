@@ -44,16 +44,16 @@ YAAK to Postman Converter is a command-line interface tool that transforms YAAK 
 
 ```bash
 # Using npm
-npm install -g yaak2postman
+npm install -g @bitecraft/yaak2postman
 
 # Using Bun
-bun install -g yaak2postman
+bun install -g @bitecraft/yaak2postman
 
 # Using pnpm
-pnpm install -g yaak2postman
+pnpm install -g @bitecraft/yaak2postman
 
 # Using yarn
-yarn global add yaak2postman
+yarn global add @bitecraft/yaak2postman
 ```
 
 ## Usage 🚀
