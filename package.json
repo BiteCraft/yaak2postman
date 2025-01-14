@@ -1,8 +1,16 @@
 {
   "name": "@bitecraft/yaak2postman",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI tool to convert YAAK files to Postman",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BiteCraft/yaak2postman.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BiteCraft/yaak2postman/issues"
+  },
+  "homepage": "https://github.com/BiteCraft/yaak2postman#readme",
   "bin": {
     "yaak2postman": "./dist/cli.js"
   },
@@ -21,8 +29,29 @@
     "test:watch": "bun test --watch",
     "test:coverage": "bun test --coverage"
   },
-  "keywords": ["cli", "postman", "yaak"],
-  "author": "",
+  "keywords": [
+    "cli",
+    "postman",
+    "yaak",
+    "api-client",
+    "postman-collection",
+    "converter",
+    "api-testing",
+    "rest-api",
+    "api-development",
+    "development-tools",
+    "api-tools",
+    "postman-converter",
+    "yaak-converter",
+    "api-collection",
+    "collection-converter",
+    "api-documentation",
+    "api-management",
+    "http-client",
+    "rest-client",
+    "api-workspace"
+  ],
+  "author": "BiteCraft - Vinicius Borges <viniciusborgeis@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.11.24",
