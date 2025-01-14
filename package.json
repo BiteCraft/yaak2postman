@@ -1,6 +1,6 @@
 {
   "name": "@bitecraft/yaak2postman",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI tool to convert YAAK files to Postman",
   "type": "module",
   "repository": {

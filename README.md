@@ -8,7 +8,7 @@
 
 # YAAK to Postman Converter 🔄
 
-> A powerful CLI tool to convert YAAK exported files into Postman collections and environments 🛠️
+> A simple CLI tool to convert YAAK exported files into Postman collections and environments 🛠️
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen)](https://nodejs.org/)
