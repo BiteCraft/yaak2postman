@@ -1,0 +1,40 @@
+{
+  "name": "yaak2postman",
+  "version": "1.0.0",
+  "description": "CLI tool to convert YAAK files to Postman",
+  "type": "module",
+  "bin": {
+    "yaak2postman": "./dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "bun ./src/cli.ts",
+    "prepublishOnly": "bun run build",
+    "prepare": "bun run build",
+    "test": "bun test",
+    "test:watch": "bun test --watch",
+    "test:coverage": "bun test --coverage"
+  },
+  "keywords": ["cli", "postman", "yaak"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "bun-types": "latest",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "commander": "^12.0.0"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/cli.js"
+    }
+  }
+} 
